@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>אל על</title>
+    <link rel="shortcut icon" href="../../Image/unnamed.png" type="imge/png">
+    <link href="../../Css/home.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header dir="rtl">
+            <div>
+                <a href="../home.html"><img src="../../Image/Logo-2023-Desktop.png" alt="logo" /></a>
+            </div>
+            <div class="Link">
+                <a  href="conect.html">צור קשר </a>
+                <a  href="employee.html"> לעובדים שלנו </a>
+                <a  href="ourcllas.html">חווית הטיסה</a>
+                <a  href="about.html">אודות </a>
+            </div>
+        </header>
+        <main class="main_employee">
+            <img class="deskImg" src="../../Image/airplane-desktop.jpg" />
+            <br /><br /><br /><br /><br /><br />
+            <form id="form" action="employeeway.html"  dir="rtl">
+                <fieldset  class="fieldsetemployee">
+                    <legend>פרטי רישום</legend>
+                    <p>
+                        <label>שם פרטי</label>
+                        <input type="text" id="1" placeholder="ישראל" size="15">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label>שם משפחה</label>
+                        <input type="text" id="2" placeholder="ישראלי" size="15">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+                    
+                    <p>
+                        <label>עיר</label>
+                        <input type="text" size="15" list="ישוב" />
+                        <datalist id="ישוב">
+                            <option value="אשדוד">אשדוד</option>
+                            <option value="בית שמש">בית שמש</option>
+                            <option value="ביתר עילית">ביתר עילית</option>
+                            <option value="בני ברק">בני ברק</option>
+                            <option value="גבעתיים">גבעתיים</option>
+                            <option value="גבעת שמואל">גבעת שמואל</option>
+                            <option value="חיפה">חיפה</option>
+                            <option value="טבריה">טבריה</option>
+                            <option value="ירושלים">ירושלים</option>
+                            <option value="מודיעין">מודיעין</option>
+                            <option value="נתניה">נתניה</option>
+                            <option value="רמת גן">רמת גן</option>
+                            <option value="תל אביב">תל אביב</option>
+                        </datalist>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label>רחוב</label>
+                        <input type="text" size="15" />
+
+                    </p>
+                    
+                    <p>
+                        <label>תעודת זהות</label>
+                        <input type="text" maxlength="9" size="15" id="id" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label for="מין">מין:</label>
+                        <label>זכר</label>
+                        <input type="radio" name="מין2" value="זכר" />
+                        <label>נקבה</label>
+                        <input type="radio" name="מין2" value="נקבה" />
+                    </p>
+                    
+                    <p>
+                        <label>מייל</label>
+                        <input type="email" size="15" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label>פלאפון</label>
+                        <input type="tel" size="15" />
+                    </p>
+                    
+                    <p>
+                        <label>עיסוק</label>
+                        <select name="עיסוק" style="width:100px">
+                            <option value="d">דייל/ת</option>
+                            <option value="d">טייס/ת</option>
+                            <option value="d">פקיד/ה</option>
+                            <option value="d">מאבטח</option>                         
+                        </select>
+                    </p>
+                </fieldset>
+                <br />
+                <div>
+                    <button class="employee" type="submit">שלח</button>
+                </div> 
+            </form>
+        </main>
+        <footer>
+            <div>
+                <h2>רוצה לשמוע על המבצעים <br />המיוחדים שלנו לפני כולם?</h2>
+                <form>
+                    <input type="email" size="25" placeholder="insert email" class="input">
+                    <div class="img1">
+                        <input type="image" width="20" height="20" src="../../Image/הורדה (2).png">
+                    </div>
+                </form>
+                <br />
+                <div>
+                    <img src="../../Image/הורדה (1).svg" />
+                    <img src="../../Image/הורדה (2).svg" />
+                    <img src="../../Image/הורדה.svg" />
+                </div>
+            </div>
+            <div>
+                <h2>
+                    מידע שימושי
+                </h2>
+                <p>יצירת קשר</p>
+                <p>מטען שניזוק</p>
+                <p>שינוי טיסה</p>
+                <p>שירות שמירת הזמנה</p>
+                <p>דרושים באל על</p>
+            </div>
+            <div>
+                <h2>
+                    טיסות ונופש
+                </h2>
+                <p>טיסות זולות למגוון יעדים</p>
+                <p>טיסות לצפון אמריקה</p>
+                <p>טיסות לאירופה</p>
+                <p>טיסות לאפריקה</p>
+                <p>טיסות לצפון אמריקה</p>
+            </div>
+        </footer>
+   </div>
+</body>
+</html>
